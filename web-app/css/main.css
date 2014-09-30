@@ -1,0 +1,376 @@
+/** ****************** **
+ * Container object css *
+ ** ****************** **/
+body {
+
+    /*background: #333 url(../images/bg.jpg) repeat top left fixed;*/
+
+    /*background: #000000 url(../images/pattern-2i1j.png) repeat top left;*/
+
+    background-color: black !important;
+
+    font-family: Arial;
+
+    text-align: center;
+
+    /*margin-top: 15px !important;*/
+
+    /*padding-top: 10px !important;*/
+}
+
+.content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+    max-width: 940px;
+    /*min-width: 500px;*/
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content_without_shadow {
+    padding-top: 35px;
+    padding-bottom: 35px;
+
+    max-width: 940px;
+    /*min-width: 500px;*/
+
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container {
+    width: 920px !important;
+
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+    margin: 0 0 0 0 !important;
+}
+
+.table-cell-display-middle {
+    display: table-cell !important;
+
+    vertical-align: middle !important;
+}
+
+tr:first-child th {
+    background-color: rgb(66, 139, 202) !important;
+    color: white !important;
+}
+
+tr:nth-child(2n+3) {
+    background-color: #708090 !important;
+}
+
+tr:nth-child(2n) {
+    /*background-color: #708090 !important;*/
+    color: white !important;
+}
+
+.full-line-footer {
+    width: 100%;
+
+    background-color: #2E2E2E;
+
+    /*background: #000000 url(../images/pattern-2i1j.png) repeat top left;*/
+
+    /*opacity: 0.5;*/
+
+    min-height: 200px;
+
+    border-bottom: 1px solid dodgerblue;
+    border-top: 1px solid dodgerblue;
+}
+
+/** ********************** **
+ * Container object css end *
+ ** ********************** **/
+
+/** ****************** **
+ * Alignment object css *
+ ** ****************** **/
+.row {
+    margin: 0 0 0 0 !important;
+}
+
+/** ********************** **
+ * Alignment object css end *
+ ** ********************** **/
+
+/** ******************* **
+ * Navigation object css *
+ ** ******************* **/
+.internal-navigation-menu {
+    background-color: rgba(255, 255, 255, 0.2);
+
+    border: 2px solid gray;
+
+    border-radius: 5px 5px 5px 5px;
+    -moz-border-radius: 5px 5px 5px 5px;
+    -webkit-border-radius: 5px 5px 5px 5px;
+}
+/** *********************** **
+ * Navigation object css end *
+ ** *********************** **/
+
+/** ************* **
+ * Font object css *
+ ** ************* **/
+
+.white-font-color {
+    color: white !important;
+}
+
+.black-font-color {
+    color: #000000 !important;
+}
+
+/** ***************** **
+ * Font object css end *
+ ** ***************** **/
+
+/** **************** **
+ * Listing object css *
+ ** **************** **/
+ul.areas-list {
+    list-style-type: none;
+
+    color: white;
+}
+
+ul.areas-list li {
+    float: left;
+
+    padding-left: 5px;
+    padding-right: 5px;
+
+    border-right: 1px solid white;
+}
+
+ul.areas-list li:last-child {
+    border: 0px solid white;
+}
+/** ******************** **
+ * Listing object css end *
+ ** ******************** **/
+
+
+/** ************* **
+ * Div spacing css *
+ ** ************* **/
+.self-up-separator5 {
+    margin-top: 5px !important;
+}
+
+.self-up-separator10 {
+    margin-top: 10px !important;
+}
+
+.self-up-separator15 {
+    margin-top: 15px !important;
+}
+
+.self-up-separator20 {
+    margin-top: 20px !important;
+}
+
+.self-down-separator5 {
+    margin-bottom: 5px !important;
+}
+
+.self-down-separator10 {
+    margin-bottom: 10px !important;
+}
+
+.self-down-separator15 {
+    margin-bottom: 15px !important;
+}
+
+.self-down-separator20 {
+    margin-bottom: 20px !important;
+}
+
+.spacer5 {
+    margin-top: 5px;
+}
+
+.spacer10 {
+    margin-top: 10px;
+}
+
+.spacer15 {
+    margin-top: 15px;
+}
+
+.spacer20 {
+    margin-top: 20px;
+}
+
+.full-line-black {
+    border-bottom: 1px solid lightgray;
+    padding-top: 5px;
+    margin-bottom: 5px;
+
+    -webkit-box-shadow: 1px 22px 30px -10px rgba(255,255,255,1);
+    -moz-box-shadow: 1px 22px 30px -10px rgba(255,255,255,1);
+    box-shadow: 1px 22px 30px -10px rgba(255,255,255,1);
+}
+
+.full-line {
+    border-bottom: 1px solid white;
+    padding-top: 5px;
+    margin-bottom: 5px;
+
+    -webkit-box-shadow: 1px 22px 30px -10px rgba(255,255,255,1);
+    -moz-box-shadow: 1px 22px 30px -10px rgba(255,255,255,1);
+    box-shadow: 1px 22px 30px -10px rgba(255,255,255,1);
+}
+
+/** ***************** **
+ * Div spacing css end *
+ ** ***************** **/
+
+
+/** ***************** **
+ * Grouping object css *
+ ** ***************** **/
+.info-panel {
+    /*background-color: rgba(255, 255, 255, 0.9);*/
+
+    border-bottom: 1px solid dodgerblue;
+    border-left:  1px solid dodgerblue;
+    border-right: 1px solid dodgerblue;
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+    -webkit-box-shadow: inset 0px 15px 15px -10px rgba(2, 149, 247, 0.75);
+    -moz-box-shadow:    inset 0px 15px 15px -10px rgba(2, 149, 247, 0.75);
+    box-shadow:         inset 0px 15px 15px -10px rgba(2, 149, 247, 0.75);
+
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.comment-message-panel {
+    color: darkorange;
+
+    border-radius: 0px 10px 0px 10px;
+    -moz-border-radius: 0px 10px 0px 10px;
+    -webkit-border-radius: 0px 10px 0px 10px;
+    border: 1px solid white;
+
+    -webkit-box-shadow: inset -2px -2px 17px 0px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow:    inset -2px -2px 17px 0px rgba(255, 255, 255, 0.75);
+    box-shadow:         inset -2px -2px 17px 0px rgba(255, 255, 255, 0.75);
+}
+
+/** ********************* **
+ * Grouping object css end *
+ ** ********************* **/
+
+
+/** ****************** **
+ * Background image css *
+ ** ****************** **/
+
+.image-upload-holder {
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+
+    min-height: 100px;
+    max-height: 100px;
+    height: 100px;
+
+    /*border: 1px solid #000000;*/
+}
+
+.image-show{
+    width:100px;
+    height:100px;
+    background:url("../images/camera.png") no-repeat center center;
+    opacity: 0.5;
+}
+
+.image-show-with-spinner {
+    width:100px;
+    height:100px;
+    background:url("../images/spinner.gif") no-repeat center center !important;
+}
+
+/** ********************** **
+ * Background image css end *
+ ** ********************** **/
+
+/** *************************** **
+ * Default image representations *
+ ** *************************** **/
+
+.image75 {
+    min-height: 75px;
+    max-height: 75px;
+    height: 75px;
+
+    min-width: 75px;
+    max-width: 75px;
+    width: 75px;
+}
+
+.image100 {
+    min-height: 100px;
+    max-height: 100px;
+    height: 100px;
+
+    min-width: 100px;
+    max-width: 100px;
+    width: 100px;
+}
+
+.image125 {
+    min-height: 125px;
+    max-height: 125px;
+    height: 125px;
+
+    min-width: 125px;
+    max-width: 125px;
+    width: 125px;
+}
+
+/** ******************************* **
+ * Default image representations end *
+ ** ******************************* **/
+
+/** ********* **
+ * Google maps *
+ ** ********* **/
+#map_canvas {
+    width: 350px;
+    height: 350px;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+/** ************* **
+ * Google maps end *
+ ** ************* **/
+
+/** ********** **
+ * Google Fonts *
+ ** ********** **/
+
+.footer-map-title-font {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.footer-map-font {
+    font-family: 'Montserrat', sans-serif;
+
+    font-size: 12px;
+}
